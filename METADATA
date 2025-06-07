@@ -1,17 +1,21 @@
-name: "SPIRV-Tools"
-description:
-    "The SPIR-V Tools project provides an API and commands for processing "
-    "SPIR-V modules."
+# This project was upgraded with external_updater.
+# Usage: tools/external_updater/updater.sh update external/SPIRV-Tools
+# For more info, check https://cs.android.com/android/platform/superproject/main/+/main:tools/external_updater/README.md
 
+name: "SPIRV-Tools"
+description: "The SPIR-V Tools project provides an API and commands for processing SPIR-V modules."
 third_party {
-homepage: "https://github.com/KhronosGroup/SPIRV-Tools"
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2025
+    month: 5
+    day: 30
+  }
+  homepage: "https://github.com/KhronosGroup/SPIRV-Tools"
   identifier {
     type: "Git"
     value: "https://github.com/KhronosGroup/SPIRV-Tools"
+    version: "a871fc43e29038d96109a64a64219eacefdf0634"
     primary_source: true
-    version: "4d2f0b40bfe290dea6c6904dafdf7fd8328ba346"
   }
-  version: "4d2f0b40bfe290dea6c6904dafdf7fd8328ba346"
-  last_upgrade_date { year: 2025 month: 4 day: 15 }
-  license_type: NOTICE
 }
