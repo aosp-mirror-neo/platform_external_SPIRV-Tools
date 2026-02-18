@@ -7,16 +7,16 @@ description: "The SPIR-V Tools project provides an API and commands for processi
 third_party {
   license_type: NOTICE
   last_upgrade_date {
-    year: 2025
-    month: 10
-    day: 20
+    year: 2026
+    month: 2
+    day: 12
   }
   homepage: "https://github.com/KhronosGroup/SPIRV-Tools"
   identifier {
     type: "Git"
     value: "https://github.com/KhronosGroup/SPIRV-Tools"
-    version: "7f2d9ee926f98fc77a3ed1e1e0f113b8c9c49458"
-    closest_version: "vulkan-sdk-1.4.328.0"
+    version: "fbe4f3ad913c44fe8700545f8ffe35d1382b7093"
+    closest_version: "vulkan-sdk-1.4.341.0"
     primary_source: true
   }
 }
